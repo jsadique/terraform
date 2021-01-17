@@ -19,3 +19,6 @@ output "colorcode" {
 output "bool" {
   value = var.bool
 }
+output "Line" {
+  value = "Color is ${var.color}"
+}
