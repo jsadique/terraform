@@ -11,7 +11,7 @@ variable "bool" {
   default = true
 }
 output "color" {
-  value = var.colorcode
+  value = var.color
 }
 output "colorcode" {
   value = var.colorcode
